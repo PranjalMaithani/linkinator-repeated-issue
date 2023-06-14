@@ -1,0 +1,17 @@
+{
+  "name": "linkinator-repeated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server src",
+    "linkinator": "linkinator \"**/index.html\" --config=linkinator.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "linkinator": "^4.0.3"
+  }
+}

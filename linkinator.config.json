@@ -1,0 +1,11 @@
+{
+    "concurrency": 10,
+    "skip": [
+        "https://",
+        "http://(?!localhost)",
+        "favicon.png"
+    ],
+    "serverRoot": "src",
+    "verbosity": "error",
+    "directoryListing": true
+}
